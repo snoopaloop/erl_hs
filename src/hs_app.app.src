@@ -1,0 +1,28 @@
+{application, hs_app,
+	[
+		{description, "handlersocket for Erlang"},
+		{vsn, "0.0.1"},
+		{modules, [
+			hs_app,
+			hs,
+			hs_conn_manager,
+			hs_conn_sup
+		]},
+		{applications, [
+			kernel, 
+			stdlib
+		]},
+		{mod, {hs_app, []}},
+		{registered, []},
+		{env, [
+			{read_pool, read_conn},
+			{write_pool, write_conn},
+			{max_conns, 20},
+			{min_conns, 1},
+			{conn_maxlife, 60000},
+			{host, "127.0.0.1"},
+			{read_port, 9998},
+			{write_port, 9999}
+		]}
+	]
+}.
