@@ -4,6 +4,8 @@ erl\_hs is a small application that will allow Erlang to chatter with the underl
 about HandlerSocket, please visit [HandlerSocket on github](https://github.com/ahiguti/HandlerSocket-Plugin-for-MySQL "ahiguti HandlerSocket") and [Yoshinori Matsunobu's blog](http://yoshinorimatsunobu.blogspot.com/2010/10/using-mysql-as-nosql-story-for.html "Yoshinori Matsunobu's blog").
 
 As of this commit, it is not recommended to use this code for anything. Unless you like to watch your computer melt, then by all means, melt it. I just threw this together quickly as a proof of concept. It will however, become something useful in time.
+## NOTE:
+Right now, this little app requires otp R14A
 
 ## Usage
 
